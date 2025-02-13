@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Cargar el modelo KNN y el escalador
 modelo_knn = joblib.load('modelo_knn.bin')
-escalador = joblib.load('escalador.bin')
+escalador = joblib.load('esclador.bin')
 
 # Título de la aplicación
 st.title("Asistente Cardiaco")
